@@ -1,0 +1,17 @@
+<main>
+
+  <div class="library">
+
+    <div class="card" *ngFor="let anime of animes.data">
+      <div class="img-container">
+        <img src="{{anime.attributes.posterImage.tiny}}" class="img-product">
+        <div class="hover">
+          <span>{{anime.attributes.canonicalTitle}}</span>
+        </div>
+      </div>
+      <h3 class="parrafo-products parrafo-products--price">{{anime.attributes.averageRating}}</h3>
+    </div>
+  </div>
+
+  <app-lateral></app-lateral>
+</main>

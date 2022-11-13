@@ -1,0 +1,49 @@
+.library {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 70px 0px 20px 20px;
+  width: 75%;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.card {
+  width: calc(25% - 20px);
+  min-width: 150px;
+  height: 200px;
+  margin: 20px 10px 20px 10px;
+}
+
+.img-product {
+  width: 100%;
+  height: auto;
+}
+
+.img-container {
+  height: 70%;
+  height: 150px;
+  overflow-y: hidden;
+}
+
+.parrafo-products {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(64, 64, 64);
+  height: 50px;
+  margin: 0px;
+}
+.parrafo-products--price {
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+}
+.parrafo-products--name {
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=home.component.css.map */

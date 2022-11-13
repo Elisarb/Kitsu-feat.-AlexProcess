@@ -1,0 +1,73 @@
+<main>
+
+  <section class="c-section__container">
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+    <div class="c-section__contain">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+        nulla fugiat? Impedit dignissimos nisi hic repellat commodi eum ab
+        vero? Iure sequi placeat officiis sapiente numquam, asperiores impedit
+        magni assumenda.
+      </p>
+    </div>
+  </section>
+
+<div class="b-gallery__father">
+  <div class="library">
+    <div class="b-fixed__searcher">
+      <input type="text" pInputText placeholder="Search" />
+    </div>
+    <div class="card" *ngFor="let anime of animes.data">
+      <div class="img-container">
+        <img
+          src="{{ anime.attributes.posterImage.tiny }}"
+          class="img-product"
+        />
+      </div>
+      <h3 class="parrafo-products parrafo-products--price">
+        {{ anime.attributes.canonicalTitle}}
+      </h3>
+    </div>
+  </div>
+</div>
+
+</main>

@@ -1,0 +1,80 @@
+.b-gallery__father{
+  display: flex;
+  width: 70%;
+  margin-left:30%;
+
+  }
+
+  main{
+    display: flex;
+  }
+
+  .library{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .c-section__container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 50px);
+    margin-top:50px;
+    width: 30%;
+    position: fixed !important;;
+
+    gap: 25px;
+    background-color: #332532;
+    color: #edf0f1;
+    overflow: scroll;
+    position: relative;
+  }
+
+
+  .c-section__contain{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .b-fixed__searcher{
+    width: 100%;
+  }
+
+  input{
+    width: 100%
+  }
+
+
+  .card{
+    width:calc(15% - 20px);
+    min-width: 150px;
+    height: 20%;
+    margin: 20px 40px 20px 40px;
+    height:fit-content
+  }
+
+  .img-product{
+    width:100%;
+    height:auto;
+  }
+
+
+
+  .parrafo-products{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color:rgb(64, 64, 64);
+    margin:0px;
+
+    &--price{
+      font-size:18px;
+      font-weight: bold;
+      height:auto;
+    }
+
+    &--name{
+      font-size:18px;
+      font-weight:bold;
+    }
+  }
